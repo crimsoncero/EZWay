@@ -3,7 +3,7 @@ guid: 28874c83fe02b454988b6863063a5849
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,8 +64,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,9 +77,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -86,9 +90,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -98,9 +103,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -110,10 +116,11 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
+  - serializedVersion: 4
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -122,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -131,13 +139,14 @@ TextureImporter:
       name: UI_Atlas_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 851
-        width: 152
-        height: 152
+        x: 46
+        y: 848
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -153,12 +162,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 213
-        y: 851
-        width: 152
-        height: 152
+        y: 848
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -174,12 +184,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 378
-        y: 851
-        width: 152
-        height: 152
+        y: 848
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -195,12 +206,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 543
-        y: 851
-        width: 152
-        height: 152
+        y: 848
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -216,12 +228,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 708
-        y: 851
-        width: 152
-        height: 152
+        y: 848
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -237,12 +250,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 873
-        y: 851
-        width: 152
-        height: 152
+        y: 849
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -258,12 +272,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1038
-        y: 851
-        width: 152
-        height: 152
+        y: 849
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -279,12 +294,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1203
-        y: 851
-        width: 152
-        height: 152
+        y: 849
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -300,12 +316,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1368
-        y: 851
-        width: 152
-        height: 152
+        y: 848
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -322,11 +339,12 @@ TextureImporter:
         serializedVersion: 2
         x: 1569
         y: 645
-        width: 425
+        width: 397
         height: 361
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -341,13 +359,14 @@ TextureImporter:
       name: UI_Atlas_10
       rect:
         serializedVersion: 2
-        x: 48
-        y: 668
-        width: 152
-        height: 152
+        x: 46
+        y: 666
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -363,12 +382,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 213
-        y: 668
-        width: 152
-        height: 152
+        y: 666
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -384,12 +404,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 378
-        y: 668
-        width: 152
-        height: 152
+        y: 666
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -405,12 +426,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 543
-        y: 668
-        width: 152
-        height: 152
+        y: 666
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -426,12 +448,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 708
-        y: 668
-        width: 152
-        height: 152
+        y: 666
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -447,12 +470,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 873
-        y: 668
-        width: 152
-        height: 152
+        y: 666
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -468,12 +492,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1038
-        y: 668
-        width: 152
-        height: 152
+        y: 666
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -489,12 +514,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1204
-        y: 668
-        width: 152
-        height: 152
+        y: 666
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -510,12 +536,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1369
-        y: 668
-        width: 152
-        height: 152
+        y: 666
+        width: 155
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -530,13 +557,14 @@ TextureImporter:
       name: UI_Atlas_19
       rect:
         serializedVersion: 2
-        x: 49
-        y: 486
-        width: 151
-        height: 151
+        x: 51
+        y: 498
+        width: 147
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -551,13 +579,14 @@ TextureImporter:
       name: UI_Atlas_20
       rect:
         serializedVersion: 2
-        x: 214
-        y: 486
-        width: 151
-        height: 151
+        x: 217
+        y: 498
+        width: 147
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -572,13 +601,14 @@ TextureImporter:
       name: UI_Atlas_21
       rect:
         serializedVersion: 2
-        x: 378
-        y: 486
-        width: 151
-        height: 151
+        x: 382
+        y: 498
+        width: 147
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -593,13 +623,14 @@ TextureImporter:
       name: UI_Atlas_22
       rect:
         serializedVersion: 2
-        x: 544
-        y: 486
-        width: 151
-        height: 151
+        x: 546
+        y: 498
+        width: 147
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -614,13 +645,14 @@ TextureImporter:
       name: UI_Atlas_23
       rect:
         serializedVersion: 2
-        x: 708
-        y: 486
-        width: 151
-        height: 151
+        x: 712
+        y: 498
+        width: 147
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -635,13 +667,14 @@ TextureImporter:
       name: UI_Atlas_24
       rect:
         serializedVersion: 2
-        x: 874
-        y: 486
-        width: 151
-        height: 151
+        x: 876
+        y: 498
+        width: 147
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -656,13 +689,14 @@ TextureImporter:
       name: UI_Atlas_25
       rect:
         serializedVersion: 2
-        x: 1039
-        y: 486
-        width: 151
-        height: 151
+        x: 1041
+        y: 498
+        width: 147
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -677,13 +711,14 @@ TextureImporter:
       name: UI_Atlas_26
       rect:
         serializedVersion: 2
-        x: 1204
-        y: 486
-        width: 151
-        height: 151
+        x: 1205
+        y: 498
+        width: 147
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -698,13 +733,14 @@ TextureImporter:
       name: UI_Atlas_27
       rect:
         serializedVersion: 2
-        x: 1369
-        y: 486
-        width: 151
-        height: 151
+        x: 1371
+        y: 498
+        width: 147
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -719,13 +755,14 @@ TextureImporter:
       name: UI_Atlas_28
       rect:
         serializedVersion: 2
-        x: 1534
-        y: 486
-        width: 151
-        height: 151
+        x: 1535
+        y: 498
+        width: 147
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -747,6 +784,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -761,13 +799,14 @@ TextureImporter:
       name: UI_Atlas_34
       rect:
         serializedVersion: 2
-        x: 49
-        y: 284
-        width: 231
-        height: 151
+        x: 46
+        y: 281
+        width: 237
+        height: 157
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -782,13 +821,14 @@ TextureImporter:
       name: UI_Atlas_35
       rect:
         serializedVersion: 2
-        x: 307
-        y: 284
-        width: 151
-        height: 151
+        x: 305
+        y: 281
+        width: 155
+        height: 157
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -803,13 +843,14 @@ TextureImporter:
       name: UI_Atlas_36
       rect:
         serializedVersion: 2
-        x: 485
-        y: 284
-        width: 151
-        height: 151
+        x: 483
+        y: 281
+        width: 155
+        height: 157
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -824,13 +865,14 @@ TextureImporter:
       name: UI_Atlas_37
       rect:
         serializedVersion: 2
-        x: 660
+        x: 647
         y: 324
-        width: 232
-        height: 121
+        width: 244
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -845,13 +887,14 @@ TextureImporter:
       name: UI_Atlas_38
       rect:
         serializedVersion: 2
-        x: 901
+        x: 891
         y: 324
-        width: 231
-        height: 121
+        width: 244
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -866,13 +909,14 @@ TextureImporter:
       name: UI_Atlas_39
       rect:
         serializedVersion: 2
-        x: 1140
+        x: 1136
         y: 324
-        width: 232
-        height: 126
+        width: 244
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -889,11 +933,12 @@ TextureImporter:
         serializedVersion: 2
         x: 1380
         y: 324
-        width: 232
-        height: 121
+        width: 244
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -908,13 +953,14 @@ TextureImporter:
       name: UI_Atlas_41
       rect:
         serializedVersion: 2
-        x: 1620
+        x: 1625
         y: 324
-        width: 232
-        height: 126
+        width: 244
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -929,13 +975,14 @@ TextureImporter:
       name: UI_Atlas_42
       rect:
         serializedVersion: 2
-        x: 49
-        y: 93
-        width: 151
-        height: 151
+        x: 45
+        y: 95
+        width: 170
+        height: 147
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -950,13 +997,14 @@ TextureImporter:
       name: UI_Atlas_43
       rect:
         serializedVersion: 2
-        x: 232
-        y: 92
-        width: 151
-        height: 152
+        x: 228
+        y: 95
+        width: 170
+        height: 147
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -971,13 +1019,14 @@ TextureImporter:
       name: UI_Atlas_44
       rect:
         serializedVersion: 2
-        x: 661
-        y: 191
-        width: 233
-        height: 121
+        x: 648
+        y: 195
+        width: 244
+        height: 123
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -992,13 +1041,14 @@ TextureImporter:
       name: UI_Atlas_45
       rect:
         serializedVersion: 2
-        x: 900
-        y: 191
-        width: 234
-        height: 121
+        x: 893
+        y: 195
+        width: 244
+        height: 123
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1013,13 +1063,14 @@ TextureImporter:
       name: UI_Atlas_46
       rect:
         serializedVersion: 2
-        x: 1141
-        y: 191
-        width: 231
-        height: 121
+        x: 1137
+        y: 195
+        width: 244
+        height: 123
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1035,12 +1086,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1381
-        y: 191
-        width: 231
-        height: 121
+        y: 195
+        width: 244
+        height: 123
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1055,13 +1107,14 @@ TextureImporter:
       name: UI_Atlas_48
       rect:
         serializedVersion: 2
-        x: 1620
-        y: 191
-        width: 232
-        height: 121
+        x: 1626
+        y: 195
+        width: 244
+        height: 123
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1083,6 +1136,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1097,13 +1151,14 @@ TextureImporter:
       name: UI_Atlas_69
       rect:
         serializedVersion: 2
-        x: 987
-        y: 27
-        width: 285
-        height: 140
+        x: 972
+        y: 18
+        width: 323
+        height: 152
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1125,6 +1180,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1139,13 +1195,14 @@ TextureImporter:
       name: UI_Atlas_30
       rect:
         serializedVersion: 2
-        x: 410
-        y: 92
-        width: 152
-        height: 153
+        x: 407
+        y: 95
+        width: 172
+        height: 147
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1160,13 +1217,14 @@ TextureImporter:
       name: UI_Atlas_31
       rect:
         serializedVersion: 2
-        x: 1907
-        y: 196
-        width: 84
-        height: 123
+        x: 1898
+        y: 190
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1181,13 +1239,14 @@ TextureImporter:
       name: UI_Atlas_32
       rect:
         serializedVersion: 2
-        x: 1907
-        y: 17
-        width: 84
-        height: 123
+        x: 1901
+        y: 32
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1202,13 +1261,14 @@ TextureImporter:
       name: UI_Atlas_49
       rect:
         serializedVersion: 2
-        x: 846
-        y: 51
-        width: 98
-        height: 98
+        x: 824
+        y: 48
+        width: 133
+        height: 114
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1223,13 +1283,14 @@ TextureImporter:
       name: UI_Atlas_50
       rect:
         serializedVersion: 2
-        x: 1874
-        y: 332
-        width: 150
-        height: 150
+        x: 1869
+        y: 334
+        width: 153
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1241,6 +1302,7 @@ TextureImporter:
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 6d4764d50949a0f4dbe5a7f96f7db746
@@ -1250,83 +1312,84 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      UI_Atlas_36: 489661538
-      UI_Atlas_59: -2108631934
-      UI_Atlas_19: -1434429693
-      UI_Atlas_42: 1042389780
-      UI_Atlas_45: -692230987
-      UI_Atlas_33: -1777617177
-      UI_Atlas_69: 1569747401
-      UI_Atlas_17: 1604289770
-      UI_Atlas_21: -274453481
-      UI_Atlas_64: -1652822817
-      UI_Atlas_6: -320054957
-      UI_Atlas_20: 23041942
-      UI_Atlas_67: 1451796401
-      UI_Atlas_50: -491509658
-      UI_Atlas_68: 859614616
       UI_Atlas_0: 2011167562
-      UI_Atlas_22: 461799322
-      UI_Atlas_30: 1327365045
-      UI_Atlas_9: -1357278188
-      UI_Atlas_55: -1796081018
-      UI_Atlas_49: 1971511996
-      UI_Atlas_63: -425128263
-      UI_Atlas_25: -1211613415
-      UI_Atlas_38: 741702014
-      UI_Atlas_3: -1052029415
-      UI_Atlas_29: -2017189985
-      UI_Atlas_7: -1376126647
-      UI_Atlas_37: -1793876918
-      UI_Atlas_11: -780754923
-      UI_Atlas_4: -1965255368
-      UI_Atlas_58: -1980355513
-      UI_Atlas_15: -1195800772
-      UI_Atlas_34: -301263783
-      UI_Atlas_44: -1145878217
-      UI_Atlas_23: -2037517900
-      UI_Atlas_18: -1026918177
-      UI_Atlas_46: -532810475
-      UI_Atlas_62: -1165036621
-      UI_Atlas_47: 1815344068
-      UI_Atlas_28: 598432988
-      UI_Atlas_57: 617206531
-      UI_Atlas_2: -1257633294
-      UI_Atlas_31: 1482295654
-      UI_Atlas_70: -235802984
-      UI_Atlas_14: 1581946431
-      UI_Atlas_32: -1043862415
-      UI_Atlas_43: 686554366
-      UI_Atlas_60: -699014198
-      UI_Atlas_5: -1620509733
-      UI_Atlas_8: -954206309
-      UI_Atlas_66: 1476636683
-      UI_Atlas_39: 537681583
-      UI_Atlas_40: -1868593612
-      UI_Atlas_61: -2069197581
-      UI_Atlas_71: -1675278003
-      UI_Atlas_27: -1871648334
-      UI_Atlas_10: 905185099
-      UI_Atlas_35: 1814466446
-      UI_Atlas_72: -365532454
-      UI_Atlas_48: -280030819
-      UI_Atlas_54: -919929322
-      UI_Atlas_16: 1740795387
-      UI_Atlas_65: -1341903077
-      UI_Atlas_12: -1472430313
-      UI_Atlas_41: -856186476
-      UI_Atlas_13: 684545530
-      UI_Atlas_53: 931908380
-      UI_Atlas_26: -597941474
-      UI_Atlas_24: 1740325448
-      UI_Atlas_52: -1005471048
-      UI_Atlas_56: 1657158927
       UI_Atlas_1: 1177588231
+      UI_Atlas_10: 905185099
+      UI_Atlas_11: -780754923
+      UI_Atlas_12: -1472430313
+      UI_Atlas_13: 684545530
+      UI_Atlas_14: 1581946431
+      UI_Atlas_15: -1195800772
+      UI_Atlas_16: 1740795387
+      UI_Atlas_17: 1604289770
+      UI_Atlas_18: -1026918177
+      UI_Atlas_19: -1434429693
+      UI_Atlas_2: -1257633294
+      UI_Atlas_20: 23041942
+      UI_Atlas_21: -274453481
+      UI_Atlas_22: 461799322
+      UI_Atlas_23: -2037517900
+      UI_Atlas_24: 1740325448
+      UI_Atlas_25: -1211613415
+      UI_Atlas_26: -597941474
+      UI_Atlas_27: -1871648334
+      UI_Atlas_28: 598432988
+      UI_Atlas_29: -2017189985
+      UI_Atlas_3: -1052029415
+      UI_Atlas_30: 1327365045
+      UI_Atlas_31: 1482295654
+      UI_Atlas_32: -1043862415
+      UI_Atlas_33: -1777617177
+      UI_Atlas_34: -301263783
+      UI_Atlas_35: 1814466446
+      UI_Atlas_36: 489661538
+      UI_Atlas_37: -1793876918
+      UI_Atlas_38: 741702014
+      UI_Atlas_39: 537681583
+      UI_Atlas_4: -1965255368
+      UI_Atlas_40: -1868593612
+      UI_Atlas_41: -856186476
+      UI_Atlas_42: 1042389780
+      UI_Atlas_43: 686554366
+      UI_Atlas_44: -1145878217
+      UI_Atlas_45: -692230987
+      UI_Atlas_46: -532810475
+      UI_Atlas_47: 1815344068
+      UI_Atlas_48: -280030819
+      UI_Atlas_49: 1971511996
+      UI_Atlas_5: -1620509733
+      UI_Atlas_50: -491509658
       UI_Atlas_51: -155404861
-  spritePackingTag: 
+      UI_Atlas_52: -1005471048
+      UI_Atlas_53: 931908380
+      UI_Atlas_54: -919929322
+      UI_Atlas_55: -1796081018
+      UI_Atlas_56: 1657158927
+      UI_Atlas_57: 617206531
+      UI_Atlas_58: -1980355513
+      UI_Atlas_59: -2108631934
+      UI_Atlas_6: -320054957
+      UI_Atlas_60: -699014198
+      UI_Atlas_61: -2069197581
+      UI_Atlas_62: -1165036621
+      UI_Atlas_63: -425128263
+      UI_Atlas_64: -1652822817
+      UI_Atlas_65: -1341903077
+      UI_Atlas_66: 1476636683
+      UI_Atlas_67: 1451796401
+      UI_Atlas_68: 859614616
+      UI_Atlas_69: 1569747401
+      UI_Atlas_7: -1376126647
+      UI_Atlas_70: -235802984
+      UI_Atlas_71: -1675278003
+      UI_Atlas_72: -365532454
+      UI_Atlas_8: -954206309
+      UI_Atlas_9: -1357278188
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
