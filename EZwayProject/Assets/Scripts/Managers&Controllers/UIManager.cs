@@ -217,7 +217,7 @@ public class UIManager : MonoBehaviour
     public void UpdateLevelIcon(int index)
     {
         //static
-        gameplayUI.TitleImage.sprite = _gameManager.Data.GetTitleIcon(index);
+        // gameplayUI.TitleImage.sprite = _gameManager.Data.GetTitleIcon(index);
     }
 
     public void ChangeUITheme(UITheme theme)
