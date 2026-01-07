@@ -184,8 +184,8 @@ public class UIManager : MonoBehaviour
 
     public void UpdateLevelCompletionWindow(int reward, int levelNum)
     {
-        gameplayUI.LevelCompleteWindow.LevelText.text = _gameManager.Data.LevelCompletionText[levelNum];
-        gameplayUI.LevelCompleteWindow.EncourageTxt.text = _gameManager.Data.GetRandomEncouragement();
+        // gameplayUI.LevelCompleteWindow.LevelText.text = _gameManager.Data.LevelCompletionText[levelNum];
+        // gameplayUI.LevelCompleteWindow.EncourageTxt.text = _gameManager.Data.GetRandomEncouragement();
         gameplayUI.LevelCompleteWindow.PointsTxt.text = reward.ToString();
     }
 
@@ -226,10 +226,10 @@ public class UIManager : MonoBehaviour
         ChangeBackgroundColors(theme);
 
         //change fonts color
-        foreach (var text in gameplayUI.AllGemaplayTexts)
-        {
-            text.color = theme.GeneralFontColor;
-        }
+        // foreach (var text in gameplayUI.AllGemaplayTexts)
+        // {
+        //     text.color = theme.GeneralFontColor;
+        // }
         
         gameplayUI.BurgerImage.sprite = theme.BurgerImage;
         gameplayUI.PointsBackgroundImage.sprite = theme.PointsBackgroundImage;

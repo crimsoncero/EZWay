@@ -16,5 +16,6 @@ public class UITheme
     public Sprite PointsBackgroundImage;
     public Sprite BurgerImage;
     public Color GeneralFontColor;
+    public Color AnsLettersFontColor;
     public Color LettersFontColor;
 }

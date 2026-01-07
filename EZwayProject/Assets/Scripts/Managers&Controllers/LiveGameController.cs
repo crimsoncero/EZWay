@@ -402,7 +402,7 @@ public class LiveGameController : MonoBehaviour
         //this makes sure that a level will habe a theme even if there its number is greater than the amount of themes
         int themeIndex = (CurrentLevel.LevelNum - 1) % _gameManager.Data.Themes.Count;
         
-        _currentTheme = _gameManager.Data.Themes[themeIndex];
+        _currentTheme = _gameManager.Data.Themes[0];
 
         _uiManager.ChangeUITheme(_currentTheme);
 
