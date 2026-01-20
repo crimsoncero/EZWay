@@ -50,6 +50,7 @@ MonoBehaviour:
     PointsBackgroundImage: {fileID: 0}
     BurgerImage: {fileID: 0}
     GeneralFontColor: {r: 0, g: 0, b: 0, a: 0}
+    AnsLettersFontColor: {r: 0, g: 0, b: 0, a: 0}
     LettersFontColor: {r: 0, g: 0, b: 0, a: 0}
   Themes:
   - TopColor: {r: 0.9958848, g: 1, b: 1, a: 1}
@@ -61,6 +62,7 @@ MonoBehaviour:
       type: 3}
     BurgerImage: {fileID: 23041942, guid: 28874c83fe02b454988b6863063a5849, type: 3}
     GeneralFontColor: {r: 0.91764706, g: 0.36862746, b: 0.039215688, a: 1}
+    AnsLettersFontColor: {r: 1, g: 1, b: 1, a: 0}
     LettersFontColor: {r: 0.18490559, g: 0.18490559, b: 0.18490559, a: 0}
   - TopColor: {r: 0.45098042, g: 0.81568635, b: 0.94117653, a: 0}
     BottomColor: {r: 0.2509804, g: 0.7725491, b: 0.8941177, a: 0}
@@ -71,6 +73,7 @@ MonoBehaviour:
       type: 3}
     BurgerImage: {fileID: -1871648334, guid: 28874c83fe02b454988b6863063a5849, type: 3}
     GeneralFontColor: {r: 0.16078432, g: 0.5921569, b: 0.827451, a: 1}
+    AnsLettersFontColor: {r: 1, g: 1, b: 1, a: 0}
     LettersFontColor: {r: 1, g: 1, b: 1, a: 1}
   - TopColor: {r: 0.19215688, g: 0.6431373, b: 0.86274517, a: 1}
     BottomColor: {r: 0.23137257, g: 0.5137255, b: 0.7725491, a: 0}
@@ -81,6 +84,7 @@ MonoBehaviour:
       type: 3}
     BurgerImage: {fileID: -597941474, guid: 28874c83fe02b454988b6863063a5849, type: 3}
     GeneralFontColor: {r: 0.16078432, g: 0.5921569, b: 0.827451, a: 1}
+    AnsLettersFontColor: {r: 1, g: 1, b: 1, a: 0}
     LettersFontColor: {r: 1, g: 1, b: 1, a: 0}
   - TopColor: {r: 0.4784314, g: 0.5176471, b: 0.7568628, a: 0}
     BottomColor: {r: 0.3803922, g: 0.43137258, b: 0.7058824, a: 0}
@@ -91,6 +95,7 @@ MonoBehaviour:
       type: 3}
     BurgerImage: {fileID: -1211613415, guid: 28874c83fe02b454988b6863063a5849, type: 3}
     GeneralFontColor: {r: 0.16078432, g: 0.5921569, b: 0.827451, a: 1}
+    AnsLettersFontColor: {r: 1, g: 1, b: 1, a: 0}
     LettersFontColor: {r: 1, g: 1, b: 1, a: 0}
   - TopColor: {r: 0.24313727, g: 0.75294125, b: 0.7372549, a: 0}
     BottomColor: {r: 0.050980397, g: 0.7019608, b: 0.65882355, a: 0}
@@ -101,6 +106,7 @@ MonoBehaviour:
       type: 3}
     BurgerImage: {fileID: 1740325448, guid: 28874c83fe02b454988b6863063a5849, type: 3}
     GeneralFontColor: {r: 0.16078432, g: 0.5921569, b: 0.827451, a: 1}
+    AnsLettersFontColor: {r: 1, g: 1, b: 1, a: 0}
     LettersFontColor: {r: 1, g: 1, b: 1, a: 0}
   - TopColor: {r: 0.50980395, g: 0.7960785, b: 0.6392157, a: 0}
     BottomColor: {r: 0.5058824, g: 0.7843138, b: 0.5176471, a: 0}
@@ -111,6 +117,7 @@ MonoBehaviour:
       type: 3}
     BurgerImage: {fileID: -2037517900, guid: 28874c83fe02b454988b6863063a5849, type: 3}
     GeneralFontColor: {r: 0.16078432, g: 0.5921569, b: 0.827451, a: 1}
+    AnsLettersFontColor: {r: 1, g: 1, b: 1, a: 0}
     LettersFontColor: {r: 1, g: 1, b: 1, a: 0}
   - TopColor: {r: 0.9843138, g: 0.96470594, b: 0.62352943, a: 0}
     BottomColor: {r: 0.9843138, g: 0.95294124, b: 0.47058827, a: 0}
@@ -121,6 +128,7 @@ MonoBehaviour:
       type: 3}
     BurgerImage: {fileID: 461799322, guid: 28874c83fe02b454988b6863063a5849, type: 3}
     GeneralFontColor: {r: 0.16078432, g: 0.5921569, b: 0.827451, a: 1}
+    AnsLettersFontColor: {r: 1, g: 1, b: 1, a: 0}
     LettersFontColor: {r: 1, g: 1, b: 1, a: 0}
   - TopColor: {r: 0.9725491, g: 0.8431373, b: 0.5764706, a: 0}
     BottomColor: {r: 0.96470594, g: 0.80392164, b: 0.4784314, a: 0}
@@ -131,6 +139,7 @@ MonoBehaviour:
       type: 3}
     BurgerImage: {fileID: -274453481, guid: 28874c83fe02b454988b6863063a5849, type: 3}
     GeneralFontColor: {r: 0.16078432, g: 0.5921569, b: 0.827451, a: 1}
+    AnsLettersFontColor: {r: 1, g: 1, b: 1, a: 0}
     LettersFontColor: {r: 1, g: 1, b: 1, a: 0}
   - TopColor: {r: 0.96470594, g: 0.83921576, b: 0.8352942, a: 0}
     BottomColor: {r: 0.9686275, g: 0.69803923, b: 0.6509804, a: 0}
@@ -141,6 +150,7 @@ MonoBehaviour:
       type: 3}
     BurgerImage: {fileID: 23041942, guid: 28874c83fe02b454988b6863063a5849, type: 3}
     GeneralFontColor: {r: 0.16078432, g: 0.5921569, b: 0.827451, a: 1}
+    AnsLettersFontColor: {r: 1, g: 1, b: 1, a: 0}
     LettersFontColor: {r: 1, g: 1, b: 1, a: 0}
   - TopColor: {r: 0.77647066, g: 0.15294118, b: 0.24705884, a: 0}
     BottomColor: {r: 0.63529414, g: 0.1254902, b: 0.21176472, a: 0}
@@ -151,6 +161,7 @@ MonoBehaviour:
       type: 3}
     BurgerImage: {fileID: -1434429693, guid: 28874c83fe02b454988b6863063a5849, type: 3}
     GeneralFontColor: {r: 0.16078432, g: 0.5921569, b: 0.827451, a: 1}
+    AnsLettersFontColor: {r: 0, g: 0, b: 0, a: 0}
     LettersFontColor: {r: 1, g: 1, b: 1, a: 0}
   TitleSprites:
   - {fileID: 238054163, guid: ee60abdb14022d241b96984f640fb404, type: 3}
