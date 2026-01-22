@@ -63,7 +63,7 @@ MonoBehaviour:
     BurgerImage: {fileID: 23041942, guid: 28874c83fe02b454988b6863063a5849, type: 3}
     GeneralFontColor: {r: 0.91764706, g: 0.36862746, b: 0.039215688, a: 1}
     AnsLettersFontColor: {r: 1, g: 1, b: 1, a: 0}
-    LettersFontColor: {r: 0.18490559, g: 0.18490559, b: 0.18490559, a: 0}
+    LettersFontColor: {r: 1, g: 1, b: 1, a: 0}
   - TopColor: {r: 0.45098042, g: 0.81568635, b: 0.94117653, a: 0}
     BottomColor: {r: 0.2509804, g: 0.7725491, b: 0.8941177, a: 0}
     GradiantSpread: 5
