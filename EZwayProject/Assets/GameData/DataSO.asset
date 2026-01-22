@@ -58,7 +58,7 @@ MonoBehaviour:
     GradiantSpread: 5
     ButtonsSprite: {fileID: -780754923, guid: 28874c83fe02b454988b6863063a5849, type: 3}
     SlotSprite: {fileID: -491509658, guid: 28874c83fe02b454988b6863063a5849, type: 3}
-    PointsBackgroundImage: {fileID: -1145878217, guid: 28874c83fe02b454988b6863063a5849,
+    PointsBackgroundImage: {fileID: 21300000, guid: 8beb615fb413e50449489e79548eab95,
       type: 3}
     BurgerImage: {fileID: 23041942, guid: 28874c83fe02b454988b6863063a5849, type: 3}
     GeneralFontColor: {r: 0.91764706, g: 0.36862746, b: 0.039215688, a: 1}
